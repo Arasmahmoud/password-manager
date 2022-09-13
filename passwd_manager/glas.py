@@ -4,13 +4,11 @@ from tkinter import ttk
 import time 
 
 
-#################################################################
-#					written by ARAS MAHMOUD	(ALM TECH)			#
-#					instagram = almcompany6 		            #
-#					facebook = Almcompany6                      #
-#################################################################
-
-
+######################################
+# written by ARAS MAHMOUD (ALM TECH) #
+# instagram = almcompany6    	     #
+# facebook = Almcompany6             #
+######################################
 
 def fall():
 	root = Tk()
