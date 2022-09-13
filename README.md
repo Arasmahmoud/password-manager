@@ -1,6 +1,6 @@
 # password-manager
 
-Password manager A program written in Python used to create strong passwords according to your desire, and it is saved in a text file, and there is the possibility of encrypting the file using Python so that it is not stolen Have fun
+Password manager A program written in Python used to create strong passwords according to your desire, and it is saved in a text file, and there is the possibility of encrypting the file using Python so that it is not stolen
 
 
 - how to use :
@@ -18,6 +18,34 @@ Password manager A program written in Python used to create strong passwords acc
              print (key)
              
 - and put your key in en_de_code.py ==> full_kay = (" put here  ") 
+
+
+Password manager
+برنامج مكتوب بلغة Python يستخدم لإنشاء كلمات مرور قوية حسب رغبتك ، ويتم حفظها في ملف نصي ، وهناك إمكانية لتشفير الملف باستخدام Python حتى لا يتم سرقتها
+
+    كيف تستعمل :
+
+    تحتاج إلى تثبيت بعض المكتبات: tkinter ، تشفير ، عشوائي (تشفير تثبيت pip3) (تثبيت pip3 tk) (تثبيت نقطة عشوائية)
+
+    لإنشاء كلمة مرور وحفظها ، ما عليك سوى فتح passwd_manag.py وضع اسم الوسائط الاجتماعية في مربع intery والنقر فوق إنشاء كلمة مرور لإنشاء كلمة مرور وحفظها في ملف paask.txt مثل (facebook ==>> GHfgh ^٪ & 567hgh)
+
+    إذا كنت تريد تشفير ملف paask.txt الخاص بك ، افتح en_de_code.py وانقر فوق تشفير المرور
+
+    إذا كنت تريد dencrypt ملف paask.txt الخاص بك ، افتح en_de_code.py وانقر فوق dencrypt pass
+
+    إذا كنت تريد الحصول على مفتاح تشفير ، فقط افتح en_de_code.py باستخدام أي محرر نصوص سترى full_kay = ("المفتاح هنا")
+
+    إذا كنت تريد رؤية نص واضح لكلمة المرور ، فما عليك سوى تشغيل en_de_code.py والنقر فوق dencrypt pass بعد أن تتمكن من فتح paask.txt أو تشغيل passwd_manag.py والنقر فوق إظهار المرور والحصول على المرور
+
+    إذا كنت تريد إنشاء مفتاحك فهو سهل:
+     from cryptography.fernet import Fernet
+             key = Fernet.generate_key()
+             print (key)
+
+    ووضع مفتاحك في en_de_code.py ==> full_kay = ("ضع هنا")
+
+    شكرا واستمتع مع ALM TECH (اراس محمود)
+
 
 
 - thanks and enjoy BY ALM TECH ( ARAS MAHMOUD )
