@@ -3,11 +3,11 @@ from tkinter import *
 from tkinter import ttk
 from glas import fall
 
-#################################################################
-#					written by ARAS MAHMOUD	(ALM TECH)			#
-#					instagram = almcompany6 		            #
-#					facebook = Almcompany6                      #
-#################################################################
+######################################
+# written by ARAS MAHMOUD (ALM TECH) #
+# instagram = almcompany6    	     #
+# facebook = Almcompany6             #
+######################################
 
 root = Tk()
 root.geometry("800x450+280+100")
