@@ -3,13 +3,11 @@ from tkinter import ttk
 import time 
 from cryptography.fernet import Fernet 
 
-
-#################################################################
-#					written by ARAS MAHMOUD	(ALM TECH)			#
-#					instagram = almcompany6 		            #
-#					facebook = Almcompany6                      #
-#################################################################
-
+######################################
+# written by ARAS MAHMOUD (ALM TECH) #
+# instagram = almcompany6    	     #
+# facebook = Almcompany6             #
+######################################
 
 root = Tk()
 root.geometry("400x200+280+100")
