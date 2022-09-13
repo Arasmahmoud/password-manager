@@ -46,10 +46,10 @@ def encrypt():
 
 
 
-en1 = Button(root, text='EncodePass',command=encrypt ,width=8, height=2, fg='gold', bg='red',font=('tajawal', '14', 'bold'))
+en1 = Button(root, text='EncryptPass',command=encrypt ,width=8, height=2, fg='gold', bg='red',font=('tajawal', '14', 'bold'))
 en1.place(relx=0.5, rely=0.2, anchor=CENTER)
 
-de1 = Button(root, text='DecodePass',command=decrypt ,width=8, height=2, fg='gold', bg='red',font=('tajawal', '14', 'bold'))
+de1 = Button(root, text='DecryptPass',command=decrypt ,width=8, height=2, fg='gold', bg='red',font=('tajawal', '14', 'bold'))
 de1.place(relx=0.5, rely=0.6, anchor=CENTER)
 
 
